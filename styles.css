@@ -126,10 +126,42 @@ header {
 
 .metricas {
     width: 100%;
-    background: #667085;
     height: 288px;
+    font-family: 'Inter';
+    font-style: normal;
 }
 
-.metricas div {
-    display: inline-block;
-}
+.lista_metricas {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows: 4fr 0px;
+    grid-column-gap: 32px;
+    grid-row-gap: 168px;
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 0 112px 0 112px;
+    border: 0 112px 0 112px;
+ }
+
+ .lista_metricas2 h1 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color: #8E2424;
+    margin-bottom: 12px;
+ }
+ 
+ .lista_metricas2 h3 {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+ }
+
+ .lista_metricas2 h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+ }
