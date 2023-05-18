@@ -135,7 +135,7 @@ header {
     display: grid;
     grid-template-columns: 280px 280px 280px 280px;
     grid-template-rows: 4fr 0px;
-    grid-column-gap: 55px;
+    grid-column-gap: 79px;
     grid-row-gap: 95px;
     justify-items: start;
     align-items: stretch;
@@ -215,36 +215,36 @@ header {
 }
 
 .vagas_abertas {
-    background: aquamarine;
     padding: 0px 256px 0px 256px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
 }
 
-.vagas_design {
+.vagas_design, .vagas_dev {
     padding: 0 220px 64px 220px;
 }
 
-.vagas_design h4 {
+.vagas_design h4, .vagas_dev h4 {
     font-size: 20px;
     line-height: 30px;
     color: #101828;
+    padding-bottom: 32px;
 }
 
-.product {
-    /*border: 1px solid #EAECF0;*/
-    border: 1px solid black;
+.product, .ux, .dev_ios, .dev_front, .dev_back {
+    border: 1px solid #EAECF0;
     border-radius: 16px;
     width: 768px;
     height: 136px;
+    margin-bottom: 24px;
 }
 
-.product li {
+.product li, .ux li, .dev_ios li, .dev_front li, .dev_back li {
     padding: 24px;
     align-items: center;
 }
 
-.designer_salario {
-    
+.product span, .ux span, .dev_ios span, .dev_front span, .dev_back span {
+    padding-right: 24px;
 }
