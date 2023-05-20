@@ -215,7 +215,7 @@ header {
 }
 
 .vagas_abertas {
-    padding: 0px 256px 0px 256px;
+    padding: 0px 256px 0px 316px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -344,12 +344,42 @@ footer h3 {
 form {
     flex-direction: row;
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding: 40px 16px 32px 0;
 }
 
 form input {
+    margin-right: 16px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 48px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding-left: 16px;
+}
+
+form button {
+    box-sizing: border-box;
+    width: 116px;
+    height: 48px;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+form h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    color: #98A2B3;
 }
